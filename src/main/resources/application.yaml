@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: dioapitest
+  datasource:
+    url: ${DATABASE_URL:jdbc:mariadb://localhost:3306/dioapi}
+    username: ${DATABASE_USER:root}
+    password: ${DATABASE_PASSWORD:root}
